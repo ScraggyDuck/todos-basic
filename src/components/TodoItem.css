@@ -1,0 +1,47 @@
+.TodoItem {
+    font-family: 'Helvetica Neue',
+    Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    border-bottom: 2px solid #f7efef;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.TodoItem .deleteItem {
+    display: none;
+    padding: 0 5px;
+    opacity: 0.1;
+
+}
+.TodoItem:hover .deleteItem{
+    display: inline-flex;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.TodoItem:hover .deleteItem:hover{
+    opacity: 0.8;
+}
+
+.TodoItem-complete {
+    border-bottom: 2px solid #f0e8e8;
+}
+
+.TodoItem > p {
+    margin: 0;
+    margin-left: 15px;
+    flex-grow: 1;
+}
+
+.TodoItem-complete > p{
+    text-decoration: line-through;
+    opacity: .3;
+    transition: all 0.2s;
+}
+
+.TodoItem:last-child {
+    border-bottom: none;
+  }

@@ -1,0 +1,81 @@
+html {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  background-attachment: fixed;
+}
+
+.container > p {
+  color: rgba(167, 92, 92, 0.5);
+  text-align: center;
+  font-size: 90px;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.App {
+  margin: 0 auto;
+  width: 500px;
+  box-shadow: 3px #ded5d5;
+  border-radius: 5px;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 25px;
+  border-bottom: 2px solid #f0e8e8;
+}
+
+.App .header > input {
+  font-family: 'Helvetica Neue',
+  Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #4d4d4d;
+  border: none;
+  width: 100%;
+  padding: 20px 23px;
+}
+
+.App .header > input:focus {
+  outline: none;
+}
+
+
+.App .header > input::placeholder {
+  opacity: .2;
+  font-style: italic;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
