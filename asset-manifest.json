@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/todos-basic/static/css/main.b7568d8f.chunk.css",
+    "main.js": "/todos-basic/static/js/main.8b2e86c2.chunk.js",
+    "main.js.map": "/todos-basic/static/js/main.8b2e86c2.chunk.js.map",
+    "runtime~main.js": "/todos-basic/static/js/runtime~main.13b6a2be.js",
+    "runtime~main.js.map": "/todos-basic/static/js/runtime~main.13b6a2be.js.map",
+    "static/js/2.d89bab35.chunk.js": "/todos-basic/static/js/2.d89bab35.chunk.js",
+    "static/js/2.d89bab35.chunk.js.map": "/todos-basic/static/js/2.d89bab35.chunk.js.map",
+    "index.html": "/todos-basic/index.html",
+    "precache-manifest.8911af6ad64e87557e2fadf569143fd1.js": "/todos-basic/precache-manifest.8911af6ad64e87557e2fadf569143fd1.js",
+    "service-worker.js": "/todos-basic/service-worker.js",
+    "static/css/main.b7568d8f.chunk.css.map": "/todos-basic/static/css/main.b7568d8f.chunk.css.map",
+    "static/media/check-complete.svg": "/todos-basic/static/media/check-complete.d29f1779.svg",
+    "static/media/check.svg": "/todos-basic/static/media/check.40eb9cc6.svg",
+    "static/media/delete-item.svg": "/todos-basic/static/media/delete-item.b55208ce.svg",
+    "static/media/tick.svg": "/todos-basic/static/media/tick.38966f6d.svg"
+  }
+}
