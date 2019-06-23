@@ -2,7 +2,7 @@
   "name": "todo-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://todos-basic.github.io/todos-basic",
+  "homepage": "https://ScraggyDuck.github.io/todos-basic",
   "dependencies": {
     "classnames": "^2.2.6",
     "gh-pages": "^2.0.1",
